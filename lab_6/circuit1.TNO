@@ -1,0 +1,474 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                      Transient Analysis of circuit1                      ***
+***                            20.12.2022 0:19:59                            ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           13u
+Output Start Time (tstart) 10n
+Maximum Time Step          0
+Number of Points           51
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          On
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
+Stepping Options
+================
+Stepping is Nested
+
+Step What  R2 value
+From       71667,35833,14333,3583
+Method     List
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                   R2=71667                    ***
+*****************************************************
+
+Temperature=27 R2=71667
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1            -4.757   2            -5.000   3            -7.276u 
+4             0.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors PNP
+====================================================================
+Instance:               Q1
+Using model:        2N3905
+
+Beta Terms:
+BETADC             -1.113 
+BETAAC            -22.845m
+
+Capacitance Terms:
+CPI                 6.119p
+CMU                 3.352p
+CBX                 0.000 
+CJS                 0.000 
+
+Conductance Terms:
+GM               -509.063f
+
+Current Terms:
+IB               -101.531p
+IC                113.052p
+
+Resistance Terms:
+RPI                44.877G
+RX                  0.000 
+RO                260.672G
+
+Voltage Terms:
+VBE                -7.276u
+VBC                 4.757 
+VCE                -4.757 
+
+Frequency Terms:
+FT                 -8.555m
+
+Power DC Terms:
+PD                537.830p
+PS                  0.000 
+
+DC Pin Currents:
+Ib                101.531p
+Ic               -113.052p
+Ie                 11.521p
+Is                  0.000 
+
+Condition:
+State                  OFF
+
+Device Variables:
+area                1.000 
+vbe                 0.000 
+vce                 0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2            R3
+V                  242.626m       -7.276u        4.757 
+Power DC Terms:
+PD                 115.426u        0.739f        2.263m
+
+DC Pin Currents:
+Ir                 475.738u     -101.531p      475.737u
+
+Device Variables:
+tc1                  0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type Pulse
+=========================================
+Instance:                V2
+Using model:          PULSE
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource           -101.531p
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   5.000 
+Power DC Terms:
+PG                  2.379m
+
+DC Pin Currents:
+ISource          -475.738u
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                   R2=35833                    ***
+*****************************************************
+
+Temperature=27 R2=35833
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1            -4.757   2            -5.000   3            -3.638u 
+4             0.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors PNP
+====================================================================
+Instance:               Q1
+Using model:        2N3905
+
+Beta Terms:
+BETADC             -1.113 
+BETAAC            -22.853m
+
+Capacitance Terms:
+CPI                 6.119p
+CMU                 3.352p
+CBX                 0.000 
+CJS                 0.000 
+
+Conductance Terms:
+GM               -509.187f
+
+Current Terms:
+IB               -101.531p
+IC                113.052p
+
+Resistance Terms:
+RPI                44.880G
+RX                  0.000 
+RO                260.672G
+
+Voltage Terms:
+VBE                -3.638u
+VBC                 4.757 
+VCE                -4.757 
+
+Frequency Terms:
+FT                 -8.557m
+
+Power DC Terms:
+PD                537.831p
+PS                  0.000 
+
+DC Pin Currents:
+Ib                101.531p
+Ic               -113.052p
+Ie                 11.521p
+Is                  0.000 
+
+Condition:
+State                  OFF
+
+Device Variables:
+area                1.000 
+vbe                 0.000 
+vce                 0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2            R3
+V                  242.626m       -3.638u        4.757 
+Power DC Terms:
+PD                 115.426u        0.369f        2.263m
+
+DC Pin Currents:
+Ir                 475.738u     -101.531p      475.737u
+
+Device Variables:
+tc1                  0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type Pulse
+=========================================
+Instance:                V2
+Using model:          PULSE
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource           -101.531p
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   5.000 
+Power DC Terms:
+PG                  2.379m
+
+DC Pin Currents:
+ISource          -475.738u
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                   R2=14333                    ***
+*****************************************************
+
+Temperature=27 R2=14333
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1            -4.757   2            -5.000   3            -1.455u 
+4             0.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors PNP
+====================================================================
+Instance:               Q1
+Using model:        2N3905
+
+Beta Terms:
+BETADC             -1.113 
+BETAAC            -22.857m
+
+Capacitance Terms:
+CPI                 6.119p
+CMU                 3.352p
+CBX                 0.000 
+CJS                 0.000 
+
+Conductance Terms:
+GM               -509.262f
+
+Current Terms:
+IB               -101.531p
+IC                113.052p
+
+Resistance Terms:
+RPI                44.883G
+RX                  0.000 
+RO                260.672G
+
+Voltage Terms:
+VBE                -1.455u
+VBC                 4.757 
+VCE                -4.757 
+
+Frequency Terms:
+FT                 -8.558m
+
+Power DC Terms:
+PD                537.831p
+PS                  0.000 
+
+DC Pin Currents:
+Ib                101.531p
+Ic               -113.052p
+Ie                 11.521p
+Is                  0.000 
+
+Condition:
+State                  OFF
+
+Device Variables:
+area                1.000 
+vbe                 0.000 
+vce                 0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2            R3
+V                  242.626m       -1.455u        4.757 
+Power DC Terms:
+PD                 115.426u        0.148f        2.263m
+
+DC Pin Currents:
+Ir                 475.738u     -101.531p      475.737u
+
+Device Variables:
+tc1                  0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type Pulse
+=========================================
+Instance:                V2
+Using model:          PULSE
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource           -101.531p
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   5.000 
+Power DC Terms:
+PG                  2.379m
+
+DC Pin Currents:
+ISource          -475.738u
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=3583                    ***
+*****************************************************
+
+Temperature=27 R2=3583
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1            -4.757   2            -5.000   3          -363.786n 
+4             0.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors PNP
+====================================================================
+Instance:               Q1
+Using model:        2N3905
+
+Beta Terms:
+BETADC             -1.113 
+BETAAC            -22.859m
+
+Capacitance Terms:
+CPI                 6.119p
+CMU                 3.352p
+CBX                 0.000 
+CJS                 0.000 
+
+Conductance Terms:
+GM               -509.299f
+
+Current Terms:
+IB               -101.531p
+IC                113.052p
+
+Resistance Terms:
+RPI                44.884G
+RX                  0.000 
+RO                260.672G
+
+Voltage Terms:
+VBE              -363.786n
+VBC                 4.757 
+VCE                -4.757 
+
+Frequency Terms:
+FT                 -8.559m
+
+Power DC Terms:
+PD                537.831p
+PS                  0.000 
+
+DC Pin Currents:
+Ib                101.531p
+Ic               -113.052p
+Ie                 11.521p
+Is                  0.000 
+
+Condition:
+State                  OFF
+
+Device Variables:
+area                1.000 
+vbe                 0.000 
+vce                 0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2            R3
+V                  242.626m     -363.786n        4.757 
+Power DC Terms:
+PD                 115.426u        0.037f        2.263m
+
+DC Pin Currents:
+Ir                 475.738u     -101.531p      475.737u
+
+Device Variables:
+tc1                  0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type Pulse
+=========================================
+Instance:                V2
+Using model:          PULSE
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource           -101.531p
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   5.000 
+Power DC Terms:
+PG                  2.379m
+
+DC Pin Currents:
+ISource          -475.738u
+
+

@@ -1,0 +1,101 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                         AC Analysis of circuit1                          ***
+***                           11.12.2022 19:15:37                            ***
+********************************************************************************
+Limits
+======
+Frequency Range          Log 1E8,1Meg
+Number of Points         1001
+Temperature              Linear 27
+Maximum Change %         5
+Noise Input              NONE
+Noise Output             2
+Run Options              Normal
+State Variables          Zero
+Operating Point          On
+Auto Scale Ranges        On
+Accumulate Plots         Off
+Ignore Expression Errors Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1            -1.488   2           -10.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors PNP
+====================================================================
+Instance:                Q1
+Using model:         2N3307
+
+Beta Terms:
+BETADC             169.668 
+BETAAC             155.882 
+
+Capacitance Terms:
+CPI                  2.052n
+CMU                  1.413p
+CBX                  0.000 
+CJS                  0.000 
+
+Conductance Terms:
+GM                   3.991 
+
+Current Terms:
+IB                   1.000m
+IC                 169.668m
+
+Resistance Terms:
+RPI                 39.054 
+RX                   0.000 
+RO                 639.554 
+
+Voltage Terms:
+VBE                 -1.488 
+VBC                  8.512 
+VCE                -10.000 
+
+Frequency Terms:
+FT               309.327MEG
+
+Power DC Terms:
+PD                   1.698 
+PS                   0.000 
+
+DC Pin Currents:
+Ib                  -1.000m
+Ic                -169.668m
+Ie                 170.668m
+Is                   0.000 
+
+Condition:
+State                   HOT
+
+Device Variables:
+area                 1.000 
+vbe                  0.000 
+vce                  0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                I1             V1
+V                   -1.488         10.000 
+Power DC Terms:
+PG                   1.488m         1.697 
+
+DC Pin Currents:
+ISource              1.000m      -169.668m
+
+

@@ -1,0 +1,86 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                          Dynamic DC of circuit1                          ***
+***                           11.12.2022 17:18:14                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1         520.534MEG  2            10.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors PNP
+====================================================================
+Instance:                Q1
+Using model:         2N3307
+
+Beta Terms:
+BETADC            -945.407m
+BETAAC              20.966 
+
+Capacitance Terms:
+CPI                  0.076f
+CMU                  0.067f
+CBX                  0.000 
+CJS                  0.000 
+
+Conductance Terms:
+GM                 100.201f
+
+Current Terms:
+IB                  -1.000m
+IC                 945.407u
+
+Resistance Terms:
+RPI                209.244T
+RX                   0.000 
+RO                 191.917K
+
+Voltage Terms:
+VBE              520.534MEG
+VBC              520.534MEG
+VCE                 10.000 
+
+Frequency Terms:
+FT                 111.822 
+
+Power DC Terms:
+PD                 520.534K
+PS                   0.000 
+
+DC Pin Currents:
+Ib                   1.000m
+Ic                -945.407u
+Ie                 -54.593u
+Is                   0.000 
+
+Condition:
+State                   HOT
+
+Device Variables:
+area                 1.000 
+vbe                  0.000 
+vce                  0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                I1             V1
+V                520.534MEG       -10.000 
+Power DC Terms:
+PG                 520.534K        -9.454m
+
+DC Pin Currents:
+ISource             -1.000m      -945.407u
+
+

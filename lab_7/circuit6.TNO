@@ -1,0 +1,331 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                      Transient Analysis of circuit6                      ***
+***                           20.12.2022 23:37:47                            ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           10u
+Output Start Time (tstart) 0
+Maximum Time Step          1n
+Number of Points           51
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          On
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+Model parameters for devices of type Mosfet NMOS
+================================================
+Instance:              M3              M4   
+Using model:       IRF630          IRF630   
+LEVEL           UNDEFINED(*)    UNDEFINED(*)
+AF                 1.000 (*)       1.000 (*)
+CBD              846.157p        846.157p   
+CBS                0.000 (*)       0.000 (*)
+CGBO               0.000 (*)       0.000 (*)
+CGDO             839.037p        839.037p   
+CGSO             884.887p        884.887p   
+CJ                 0.000 (*)       0.000 (*)
+CJSW               0.000 (*)       0.000 (*)
+DELTA              0.000 (*)       0.000 (*)
+ETA                0.000 (*)       0.000 (*)
+FC               500.000m(*)     500.000m(*)
+GAMMA              0.000           0.000    
+GDSNOI             0.000           0.000    
+IS                10.000f         10.000f   
+JS                10.000n         10.000n   
+JSW                0.000 (*)       0.000 (*)
+KAPPA           UNDEFINED(*)    UNDEFINED(*)
+KF                 0.000 (*)       0.000 (*)
+KP                20.000u         20.000u   
+L                  2.000u          2.000u   
+LAMBDA             3.313m          3.313m   
+LD                 0.000 (*)       0.000 (*)
+MJ               500.000m(*)     500.000m(*)
+MJSW             330.000m(*)     330.000m(*)
+N                  1.000 (*)       1.000 (*)
+NEFF               1.000 (*)       1.000 (*)
+NFS                0.000 (*)       0.000 (*)
+NLEV               0.000           0.000    
+NSS             UNDEFINED(*)    UNDEFINED(*)
+NSUB               0.000           0.000    
+PB               800.000m(*)     800.000m(*)
+PBSW             800.000m(*)     800.000m(*)
+PHI              600.000m        600.000m   
+RB                 0.000 (*)       0.000 (*)
+RD               116.860m        116.860m   
+RDS              800.000K        800.000K   
+RG                 5.324           5.324    
+RS                 0.000 (*)       0.000 (*)
+RSH                0.000 (*)       0.000 (*)
+T_ABS           UNDEFINED(*)    UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)    UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)    UNDEFINED(*)
+THETA              0.000 (*)       0.000 (*)
+TOX                0.000           0.000    
+TPG                1.000           1.000    
+TT                 0.000 (*)       0.000 (*)
+UCRIT             10.000K(*)      10.000K(*)
+UEXP               0.000 (*)       0.000 (*)
+UO               600.000         600.000    
+UTRA               0.000 (*)       0.000 (*)
+VMAX               0.000 (*)       0.000 (*)
+VTO                3.982           3.982    
+W                345.845m        345.845m   
+WD                 0.000 (*)       0.000 (*)
+XJ                 0.000 (*)       0.000 (*)
+XQC                1.000 (*)       1.000 (*)
+(*) Default Parameter
+
+
+
+Model parameters for devices of type Mosfet PMOS
+================================================
+Instance:              M1              M2   
+Using model:      IRF9630         IRF9630   
+LEVEL           UNDEFINED(*)    UNDEFINED(*)
+AF                 1.000 (*)       1.000 (*)
+CBD                1.193n          1.193n   
+CBS                0.000 (*)       0.000 (*)
+CGBO               0.000 (*)       0.000 (*)
+CGDO             103.532p        103.532p   
+CGSO               2.003n          2.003n   
+CJ                 0.000 (*)       0.000 (*)
+CJSW               0.000 (*)       0.000 (*)
+DELTA              0.000 (*)       0.000 (*)
+ETA                0.000 (*)       0.000 (*)
+FC               500.000m(*)     500.000m(*)
+GAMMA              0.000           0.000    
+GDSNOI             0.000           0.000    
+IS                10.000f         10.000f   
+JS                10.000n         10.000n   
+JSW                0.000 (*)       0.000 (*)
+KAPPA           UNDEFINED(*)    UNDEFINED(*)
+KF                 0.000 (*)       0.000 (*)
+KP                20.000u         20.000u   
+L                  2.000u          2.000u   
+LAMBDA            10.000m         10.000m   
+LD                 0.000 (*)       0.000 (*)
+MJ               500.000m(*)     500.000m(*)
+MJSW             330.000m(*)     330.000m(*)
+N                  1.000 (*)       1.000 (*)
+NEFF               1.000 (*)       1.000 (*)
+NFS                0.000 (*)       0.000 (*)
+NLEV               0.000           0.000    
+NSS             UNDEFINED(*)    UNDEFINED(*)
+NSUB               0.000           0.000    
+PB               800.000m(*)     800.000m(*)
+PBSW             800.000m(*)     800.000m(*)
+PHI              600.000m        600.000m   
+RB                 0.000 (*)       0.000 (*)
+RD               100.000m        100.000m   
+RDS              800.000K        800.000K   
+RG                39.171          39.171    
+RS                 0.000 (*)       0.000 (*)
+RSH                0.000 (*)       0.000 (*)
+T_ABS           UNDEFINED(*)    UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)    UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)    UNDEFINED(*)
+THETA              0.000 (*)       0.000 (*)
+TOX                0.000           0.000    
+TPG                1.000           1.000    
+TT                 0.000 (*)       0.000 (*)
+UCRIT             10.000K(*)      10.000K(*)
+UEXP               0.000 (*)       0.000 (*)
+UO               600.000         600.000    
+UTRA               0.000 (*)       0.000 (*)
+VMAX               0.000 (*)       0.000 (*)
+VTO               -3.000          -3.000    
+W                750.000m        750.000m   
+WD                 0.000 (*)       0.000 (*)
+XJ                 0.000 (*)       0.000 (*)
+XQC                1.000 (*)       1.000 (*)
+(*) Default Parameter
+
+
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             5.000   2           499.950u  3             5.000  
+4           499.950u  5             2.500  
+
+DC Operating Point Digital States
+=================================
+Node     State Node     State
+6        0     7        0    
+
+
+Operating Point for Devices of Type Mosfet NMOS
+===============================================
+Instance:                 M3              M4
+Using model:          IRF630          IRF630
+
+Capacitance Terms:
+CBD                 416.619p        846.157p
+CBS                   0.000           0.000 
+CGSOVL              306.034p        306.034p
+CGDOVL              290.177p        290.177p
+CGBOVL                0.000           0.000 
+CGS                   0.000           0.000 
+CGD                   0.000           0.000 
+CGB                   0.000           0.000 
+
+Conductance Terms:
+GM                    0.000           0.000 
+GDS                   0.000           0.000 
+GMBS                  0.000           0.000 
+
+Current Terms:
+ID                   -3.125u         -3.125u
+
+Voltage Terms:
+VGS                  -4.999          -2.499 
+VDS                  -2.500          -2.500 
+VBS                  -5.000          -2.500 
+VGB                 499.950u        499.950u
+VGD                  -2.499         499.950u
+VDB                   2.500           0.000 
+VTH                   3.982           3.982 
+VDSAT                 0.000           0.000 
+
+Power DC Terms:
+PD                    7.813u          7.812u
+PS                    0.000           0.000 
+
+DC Pin Currents:
+Ig                    0.000           0.000 
+Id                   -3.125u         -3.125u
+Is                    3.125u          3.125u
+Ib                   -7.520p         -2.510p
+
+Condition:
+State                    OFF             OFF
+
+Device Variables:
+m                     1.000           1.000 
+l                     0.000           0.000 
+w                     0.000           0.000 
+ad                    0.000           0.000 
+as                    0.000           0.000 
+pd                    0.000           0.000 
+ps                    0.000           0.000 
+nrd                   0.000           0.000 
+nrs                   0.000           0.000 
+nrb                   0.000           0.000 
+nrg                   0.000           0.000 
+vds                   0.000           0.000 
+vgs                   0.000           0.000 
+vbs                   0.000           0.000 
+
+
+
+Operating Point for Devices of Type Mosfet PMOS
+===============================================
+Instance:                 M1              M2
+Using model:         IRF9630         IRF9630
+
+Capacitance Terms:
+CBD                   1.193n          1.193n
+CBS                   0.000           0.000 
+CGSOVL                1.502n          1.502n
+CGDOVL               77.649p         77.649p
+CGBOVL                0.000           0.000 
+CGS                   0.000           0.000 
+CGD                   0.000           0.000 
+CGB                   0.000           0.000 
+
+Conductance Terms:
+GM                  781.447n        781.447n
+GDS                  14.996          14.996 
+GMBS                  0.000           0.000 
+
+Current Terms:
+ID                    1.563u          1.563u
+
+Voltage Terms:
+VGS                  -4.999          -4.999 
+VDS                 260.443n        260.443n
+VBS                 260.443n        260.443n
+VGB                  -5.000          -5.000 
+VGD                  -5.000          -5.000 
+VDB                   0.000           0.000 
+VTH                  -3.000          -3.000 
+VDSAT                -1.999          -1.999 
+
+Power DC Terms:
+PD                  406.944f        406.944f
+PS                    0.000           0.000 
+
+DC Pin Currents:
+Ig                    0.000           0.000 
+Id                    1.563u          1.563u
+Is                   -1.563u         -1.563u
+Ib                    0.001f          0.001f
+
+Condition:
+State                    LIN             LIN
+
+Device Variables:
+m                     1.000           1.000 
+l                     0.000           0.000 
+w                     0.000           0.000 
+ad                    0.000           0.000 
+as                    0.000           0.000 
+pd                    0.000           0.000 
+ps                    0.000           0.000 
+nrd                   0.000           0.000 
+nrs                   0.000           0.000 
+nrb                   0.000           0.000 
+nrg                   0.000           0.000 
+vds                   0.000           0.000 
+vgs                   0.000           0.000 
+vbs                   0.000           0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:            N1.rhigh         N1.rlow        N2.rhigh         N2.rlow
+V                      5.000        -499.950u          5.000        -499.950u
+Power DC Terms:
+PD                    24.995m          2.500u         24.995m          2.500u
+
+DC Pin Currents:
+Ir                     5.000m         -5.000m          5.000m         -5.000m
+
+Device Variables:
+tc1                    0.000           0.000           0.000           0.000 
+tc2                    0.000           0.000           0.000           0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                 V1
+V                     5.000 
+Power DC Terms:
+PG                   50.011m
+
+DC Pin Currents:
+ISource             -10.002m
+
+
